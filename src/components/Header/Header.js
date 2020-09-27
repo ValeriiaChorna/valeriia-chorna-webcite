@@ -6,8 +6,7 @@ const Header = () => (
     <div className={'headContainer'}>
       <h2 className={styles.logo}>Valeriia Chorna</h2>
       {/* <Logo />
-        <Navigation />
-        <ButtonThemeChanger /> */}
+        <Navigation /> */}
     </div>
   </header>
 );

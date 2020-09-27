@@ -23,11 +23,8 @@ a:focus {
   text-decoration: none;
 }
 
-.layout {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
+img {
+  /* display: block; */
 }
 
 span {
@@ -36,4 +33,11 @@ span {
 
 h2 {
   padding-top: 50px;
+}
+
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }

@@ -1,0 +1,27 @@
+@value hover-color from '../../variables/variables.module.css';
+
+.contactsWrapper {
+  /* display: flex; */
+}
+
+a.contactsLink {
+  display: inline-block;
+  border-radius: 20px;
+  margin-right: 30px;
+  height: 40px;
+}
+
+a.contactsLink:last-child {
+  margin-right: 0px;
+}
+
+a.contactsLink:hover {
+  /* background-color: yellow; */
+  fill: hover-color;
+}
+
+.iconImg {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}

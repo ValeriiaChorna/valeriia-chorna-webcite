@@ -1,8 +1,13 @@
-@value font-family-logo from '../../variables/variables.module.css';
+@value font-family-logo,hover-color from '../../variables/variables.module.css';
 
 .logo {
   font-family: font-family-logo;
   font-weight: 400;
   text-align: right;
   padding: 30px;
+  font-size: 40px;
+}
+
+.logo:hover {
+  color: hover-color;
 }

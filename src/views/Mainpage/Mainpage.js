@@ -12,6 +12,9 @@ const Mainpage = () => {
     <div className={styles.mainpage}>
       <div className={styles.banner}></div>
       <div className={styles.skillList_wrapper}>
+        <h1>VALERIIA CHORNA - FULL STACK DEVELOPER</h1>
+        <span>Location: Kyiv, Ukraine</span>
+        <h2>Contacts:</h2>
         <MainInfo />
         <h2>SKILLS</h2>
         <SkillsList />
