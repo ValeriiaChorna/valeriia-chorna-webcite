@@ -5,10 +5,8 @@ import Header from '../Header';
 const Layout = ({ children }) => {
   return (
     <div className={styles.layout}>
-      <div className={styles.banner}>
-        <Header />
-        {children}
-      </div>
+      <Header />
+      {children}
     </div>
   );
 };

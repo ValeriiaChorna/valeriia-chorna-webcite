@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nameSchool": "Dnipropetrovsk National University",
+    "hrefShcool": "http://www.dnu.dp.ua/",
+    "specialization": "Master (with honors)",
+    "discr": "Mathematics, Faculty of Mechanics and Mathematics",
+    "period": "SEP 2010 - FEB 2016",
+    "location": "Kyiv, Ukraine"
+  },
+  {
+    "id": 2,
+    "nameSchool": "IT courses school \"GOIT\"",
+    "hrefShcool": "https://fullstack.goit.ua/",
+    "specialization": "FULL-STACK DEVELOPER",
+    "discr": "FRONT-END – DEVELOPMENT, WEB - DEVELOPMENT",
+    "period": "APR 2019 – JUL 2020",
+    "location": "Kyiv, Ukraine"
+  }
+]

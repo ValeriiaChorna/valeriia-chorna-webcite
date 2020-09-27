@@ -1,0 +1,8 @@
+@value font-family-logo from '../../variables/variables.module.css';
+
+.logo {
+  font-family: font-family-logo;
+  font-weight: 400;
+  text-align: right;
+  padding: 30px;
+}

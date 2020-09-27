@@ -1,0 +1,27 @@
+.mainpage {
+  position: relative;
+  height: 1200px;
+  text-align: left;
+}
+
+.banner {
+  width: 100%;
+  height: 1200px;
+  /* background-color: linear-gradient(to right, bg-main-color 0%, transparent 30%),
+    linear-gradient(to top, bg-main-color 5%, transparent 30%),
+    linear-gradient(to left, bg-main-color 0%, transparent 20%),
+    linear-gradient(to bottom, bg-main-color 0%, transparent 10%); */
+  background-image: url('../../img/valeriia-chorna.jpg');
+  background-color: rgba(0, 0, 0);
+  border-radius: 80px;
+  background-size: cover;
+  /* overflow: hidden; */
+}
+
+.skillList_wrapper {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  font-size: 18px;
+  /* background-color: transparent; */
+}

@@ -1,2 +1,6 @@
-@value font-stack: Roboto, Arial, sans-serif;
+@import url('./fonts/fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet');
+
+@value font-family-main: 'SF UI Display Light', sans-serif;
+@value font-family-logo: 'Kaushan Script', cursive;
 @value bg-main-color: black;

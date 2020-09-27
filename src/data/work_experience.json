@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "position": "MATH SENIOR ASSISTANT",
+    "companyName": "Oles Honchar Dnipro National University",
+    "hrefCompany": "http://www.dnu.dp.ua/",
+    "location": "Dnipro, Ukraine",
+    "companyDiscription": "an establishments of higher education",
+    "period": "OKT 2015 – JAN 2016",
+    "responsibilities": [
+      "Working with documents, reports",
+      "Working with MC Word, MC Excel"
+    ]
+  },
+  {
+    "id": 2,
+    "position": "Teacher of mathematics and computer science",
+    "companyName": "Free development high school №41",
+    "hrefCompany": "http://www.nvk41.org.ua/",
+    "location": "Dnipro, Ukraine",
+    "companyDiscription": "an establishments of secondary school",
+    "period": "FEB 2016 – AUG 2016",
+    "responsibilities": [
+      "School math course, Mathematical analysis (Basic), Algebra, Geometry",
+      "Computer science (Basic), MC Word, MC Excel, MC PowerPoint",
+      "Computer class technical support",
+      "Administering of the school website"
+    ]
+  },
+  {
+    "id": 3,
+    "position": "Math consultant",
+    "companyName": "Tutoring center \"Algorithm\"",
+    "hrefCompany": "https://algoritm.co.ua/",
+    "location": "Dnipro, Ukraine",
+    "companyDiscription": "educational services",
+    "period": "AUG 2016 – OCT 2016",
+    "responsibilities": [
+      "School math course",
+      "Linear algebra",
+      "Differential equations",
+      "Mathematical analysis",
+      "Comprehensive analysis",
+      "Analytic geometry",
+      "Theory of Probability and Mathematical Statistics"
+    ]
+  },
+  {
+    "id": 4,
+    "position": "Teacher of math and computer science",
+    "companyName": "Municipal Higher Education Institution \"Dnepropetrovsk Pedagogical College\"",
+    "hrefCompany": "https://dpkdnu.dnepredu.com/",
+    "location": "Dnipro, Ukraine",
+    "companyDiscription": "an establishments of secondary school",
+    "period": "OCT 2016 – JAN 2017",
+    "responsibilities": [
+      "Mathematical analysis",
+      "Differential equations",
+      "Linear algebra",
+      "Comprehensive analysis",
+      "Computer science (Basic), MC Word, MC Excel"
+    ]
+  },
+  {
+    "id": 5,
+    "position": "Company Operations Analyst",
+    "companyName": "INTERPIPE",
+    "hrefCompany": "https://interpipe.biz/",
+    "location": "Dnipro, Ukraine",
+    "companyDiscription": "Interpipe Group, or simply Interpipe, is a Ukrainian industrial company, a global producer of steel pipes and railway wheels",
+    "period": "JAN 2017 – MAY 2017",
+    "responsibilities": [
+      "Optimization of operational management processes",
+      "Processing large arrays of data in EXCEL, working with data from IT-Enterprise",
+      "Development and monitoring of standards of productivity, costs",
+      "Analysis of the consequences of operational activities, data reception, compilation and analysis of functional tables, organizational charts, development of specifications to improve productivity",
+      "Definition and development of methods to reduce personal and raw materials costs"
+    ]
+  },
+  {
+    "id": 6,
+    "position": "Business Development Specialist (Junior Business Analyst)",
+    "companyName": "Ancor",
+    "hrefCompany": "https://ancor.ua/",
+    "location": "Kyiv, Ukraine",
+    "companyDiscription": "The international company ANKOR provides services to businesses in the field of recruitment, outsourcing and consulting",
+    "period": "MAY 2017 – JUN 2017",
+    "responsibilities": [
+      "P&G customer service",
+      "Processing large arrays of data in EXCEL, working with data from SAP ERP reports",
+      "Preparation of regular reports on distribution, prices, layout, merchandising, based on electronic systems data (by brands, sales channels and customers) by uploading from RTDC, Office Plus databases, ect"
+    ]
+  },
+  {
+    "id": 7,
+    "position": "Procurement Business Analyst",
+    "companyName": "METINVEST HOLDING",
+    "hrefCompany": "https://metinvestholding.com/",
+    "location": "Kyiv, Ukraine",
+    "companyDiscription": "The international group of companies METINVES which includes mining, steel enterprises and sales network in Ukraine, Europe and the USA",
+    "period": "JUN 2017 –AUG 2020",
+    "responsibilities": [
+      "Monitoring and analysis of the business procurement process, increasing its effectiveness",
+      "Processing large arrays of data in EXCEL, working with data from SAP ERP reports, development of algorithms and templates for automatization of the calculation of regular reports in EXCEL",
+      "Project Management Transformation of the procurement business process, SAP ERP: preparing technical specifications for automatization of regular reports in SAP ERP, developing business requirements on the request of the purchasing department"
+    ]
+  }
+]

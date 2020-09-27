@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "period": "JUN 2020 – JUL 2020",
+    "name": "Pizza-cite",
+    "discr": "IT Courses \"GoIT\"",
+    "location": "Kyiv, Ukraine",
+    "href": "https://goit-team-project.netlify.app/",
+    "respons": "connecting react-redux, creating Private and Public Routes, coding and setting up the admin page, debugging validation"
+  },
+  {
+    "id": 2,
+    "period": "SEP 2020",
+    "name": "DNMUfirstBot",
+    "discr": "telegram-bot for students of DNMU",
+    "location": "Kyiv, Ukraine",
+    "href": "https://t.me/DNMUfirstBot",
+    "respons": "node.js, deploy to heroku, connect with MongoDB, use mongoose"
+  }
+]

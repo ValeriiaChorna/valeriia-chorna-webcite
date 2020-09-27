@@ -1,0 +1,15 @@
+[
+  {
+    "lang": ["Russian-С2", "Ukrainian-С1", "English-B1"],
+    "development": [
+      "HTML: basics, semantics, a11y",
+      "CSS: basics, flexbox, adaptive and mobile-first css, BEM, SASS",
+      "JavaScript: basics, ES5/ES6+, DOM/BOM, AJAX, patterns, Gulp, Webpack",
+      "React: basics, state management с Redux, client-side routing, patterns, testing",
+      "NodeJS: vanilla NodeJS, Express, MongoDB, Mongoose, JWT",
+      "Basics and tools: terminal, git, github, npm, babel",
+      "Other: Scrum Agile Methodology"
+    ],
+    "other": ["SAP ERP", "SAP BWP", "Matlab", "Maple"]
+  }
+]
