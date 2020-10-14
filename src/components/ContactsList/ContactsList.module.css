@@ -1,14 +1,15 @@
 @value hover-color from '../../variables/variables.module.css';
 
 .contactsWrapper {
-  /* display: flex; */
+  width: 100%;
+  text-align: center;
 }
 
 a.contactsLink {
-  display: inline-block;
+  display: block;
   border-radius: 20px;
-  margin-right: 30px;
-  height: 40px;
+  margin-bottom: 3rem;
+  height: 3rem;
 }
 
 a.contactsLink:last-child {
@@ -16,12 +17,11 @@ a.contactsLink:last-child {
 }
 
 a.contactsLink:hover {
-  /* background-color: yellow; */
   fill: hover-color;
 }
 
 .iconImg {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 3rem;
+  height: 3rem;
 }

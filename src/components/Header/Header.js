@@ -1,12 +1,14 @@
 import React from 'react';
+import ContactsList from '../ContactsList';
 import styles from './Header.module.css';
 
 const Header = () => (
-  <header className="header">
-    <div className={'headContainer'}>
-      <h2 className={styles.logo}>Valeriia Chorna</h2>
-      {/* <Logo />
-        <Navigation /> */}
+  <header className={styles.header}>
+    <div className={styles.headContainer}>
+      <span className={styles.headerHi}>Hi, I am</span>
+      <h1 className={styles.logo}>Valeriia Chorna</h1>
+      <ContactsList />
+      <span className={styles.locationText}>Location: Kyiv, Ukraine</span>
     </div>
   </header>
 );

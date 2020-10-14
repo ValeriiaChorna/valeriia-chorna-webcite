@@ -4,7 +4,7 @@ import { ReactComponent as IconLinkIn } from '../../img/icons/linkedin-sign.svg'
 import { ReactComponent as IconGithub } from '../../img/icons/github-logo.svg';
 import { ReactComponent as IconFacebook } from '../../img/icons/facebook-circular-logo.svg';
 import { ReactComponent as IconTelegram } from '../../img/icons/telegram.svg';
-import styles from './MainInfo.module.css';
+import styles from './ContactsList.module.css';
 
 export default function MainInfo() {
   return (

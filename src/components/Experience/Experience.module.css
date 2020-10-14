@@ -1,7 +1,26 @@
+@value hover-color from '../../variables/variables.module.css';
+
 .experienceList {
   text-align: left;
 }
 
 .experienceItem {
-  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.experienceItem input {
+  display: none;
+}
+
+.experienceItem h3 {
+  margin: 0;
+}
+
+.experienceItem h3:hover {
+  color: hover-color;
+}
+
+.experienceItem_company {
+  display: block;
+  margin-bottom: 1rem;
 }

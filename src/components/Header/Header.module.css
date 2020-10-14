@@ -1,13 +1,39 @@
 @value font-family-logo,hover-color from '../../variables/variables.module.css';
 
-.logo {
-  font-family: font-family-logo;
-  font-weight: 400;
-  text-align: right;
-  padding: 30px;
-  font-size: 40px;
+.header {
+  position: absolute;
+  right: 0;
+  top: 60px;
 }
 
-.logo:hover {
+.headContainer {
+  padding: 0 15px;
+}
+
+.headContainer > div {
+  padding-left: 1.5rem;
+}
+
+.headerHi {
+  display: block;
+  margin: auto 0;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  display: block;
+  font-family: font-family-logo;
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin: 5px 0 320px;
+}
+
+.logo {
   color: hover-color;
+}
+
+.locationText {
+  font-size: 1rem;
+  padding-left: 3.8rem;
 }
