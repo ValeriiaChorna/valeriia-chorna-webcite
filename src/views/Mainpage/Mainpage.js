@@ -8,7 +8,7 @@ import ExperienceList from '../../components/Experience/ExperienceList';
 import styles from './mainpage.module.css';
 
 const Mainpage = () => {
-  const [choosenItem, setChoosenItem] = useState('skills');
+  const [choosenItem, setChoosenItem] = useState('');
 
   const handleChange = ({ target: { value } }) => {
     setChoosenItem(value);
