@@ -8,11 +8,11 @@ export default function ProjectsItem({ projectsItem }) {
       <h3>
         <a href={href} target="_blank" rel="noopener noreferrer">
           {name}
-        </a>
+        </a>{' '}
+        (<span>{period}</span>
+        <span>{location}</span>)
       </h3>
       <p>{discr}</p>
-      <span>{period}</span>
-      <span>{location}</span>
       <p>{respons}</p>
     </li>
   );

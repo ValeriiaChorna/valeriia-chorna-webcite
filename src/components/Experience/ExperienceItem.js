@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import T from 'prop-types';
 import styles from './Experience.module.css';
 
 export default function ExperienceItem({
@@ -18,10 +17,16 @@ export default function ExperienceItem({
     companyDiscription,
     period,
     responsibilities,
+    projects,
   } = workItem;
 
   function experItemHandleChange() {
-    setDisrcOpen(!disrcOpen);
+    if (chosenItem === id) {
+      setDisrcOpen(!disrcOpen);
+    } else {
+      setDisrcOpen(true);
+    }
+
     if (chosenItem !== id) {
       handleItemChange(id);
     }
@@ -37,8 +42,8 @@ export default function ExperienceItem({
           onChange={experItemHandleChange}
           className="experItemButton"
         />
-        <h3>
-          <span>{period} - </span>
+        <h3 className={styles.experienceItem_title}>
+          <span>{period}</span>
           {position}
         </h3>
         <span className={styles.experienceItem_company}>
@@ -53,11 +58,28 @@ export default function ExperienceItem({
           , {location}
         </span>
         {id === chosenItem && disrcOpen && (
-          <ul>
-            {responsibilities.map(item => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
+          <>
+            {!!responsibilities.length && (
+              <ul>
+                {responsibilities.map(item => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            )}
+            {!!projects?.length &&
+              projects.map(proj => (
+                <div key={proj.title}>
+                  <h4>{proj.title}</h4>
+                  {!!proj.responsibilities?.length && (
+                    <ul>
+                      {proj.responsibilities.map(item => (
+                        <li key={proj.title + item}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+          </>
         )}
       </label>
     </li>

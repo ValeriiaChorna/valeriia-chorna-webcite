@@ -5,51 +5,31 @@ import GoITworks from '../../components/GoITworks/GoITworks';
 import ProjectsList from '../../components/Projects/ProjectList';
 import EducationList from '../../components/Education/EducationList';
 import ExperienceList from '../../components/Experience/ExperienceList';
-import './Mainpage.css';
+import styles from './mainpage.module.css';
 
 const Mainpage = () => {
-  const [choosenItem, setChoosenItem] = useState('');
+  const [choosenItem, setChoosenItem] = useState('skills');
 
   const handleChange = ({ target: { value } }) => {
     setChoosenItem(value);
   };
 
   return (
-    <div className="mainpage">
+    <div className={styles.mainpage}>
       <Header />
-      <div className="banner"></div>
-      <h2 className="positionName">FULL STACK DEVELOPER / ANALYST</h2>
-      <div className="mainDescrWrapper">
-        <form className="resumListItems">
+      <div className={styles.banner}></div>
+      <h2 className={styles.positionName}>FULL STACK JS DEVELOPER</h2>
+      <div className={styles.mainDescrWrapper}>
+        <form className={styles.resumListItems}>
           <label>
             <input
               type="radio"
               value="skills"
               checked={'skills' === choosenItem}
               onChange={handleChange}
-              className="resumItemButton"
+              className={styles.resumItemButton}
             />
             <h2 className="resumItemText">SKILLS</h2>
-          </label>
-          <label>
-            <input
-              type="radio"
-              value="projects"
-              checked={'projects' === choosenItem}
-              onChange={handleChange}
-              className="resumItemButton"
-            />
-            <h2 className="resumItemText">PROJECTS</h2>
-          </label>
-          <label>
-            <input
-              type="radio"
-              value="education"
-              checked={'education' === choosenItem}
-              onChange={handleChange}
-              className="resumItemButton"
-            />
-            <h2 className="resumItemText">EDUCATION</h2>
           </label>
           <label>
             <input
@@ -57,20 +37,33 @@ const Mainpage = () => {
               value="experience"
               checked={'experience' === choosenItem}
               onChange={handleChange}
-              className="resumItemButton"
+              className={styles.resumItemButton}
             />
             <h2 className="resumItemText">EXPERIENCE</h2>
           </label>
+          <label>
+            <input
+              type="radio"
+              value="education"
+              checked={'education' === choosenItem}
+              onChange={handleChange}
+              className={styles.resumItemButton}
+            />
+            <h2 className={styles.resumItemText}>EDUCATION</h2>
+          </label>
         </form>
-        <div className="decrItemWrapper">
+        <hr />
+        <div className={styles.decrItemWrapper}>
           {choosenItem === 'skills' && <SkillsList />}
-          {choosenItem === 'projects' && (
+          {choosenItem === 'education' && (
             <>
-              <ProjectsList />
+              <EducationList />
+              <hr />
+              <h3>Study works:</h3>
               <GoITworks />
+              <ProjectsList />
             </>
           )}
-          {choosenItem === 'education' && <EducationList />}
           {choosenItem === 'experience' && <ExperienceList />}
         </div>
       </div>

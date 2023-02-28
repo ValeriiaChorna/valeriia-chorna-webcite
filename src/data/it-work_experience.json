@@ -1,0 +1,57 @@
+[
+  {
+    "id": 8,
+    "position": "Full stack JS-developer (Freelance)",
+    "companyName": "WEB-BOXES",
+    "hrefCompany": "https://web-boxes.com/",
+    "location": "Brno, Czech Republic, EU (Remote)",
+    "companyDiscription": "software development company",
+    "period": "SEP 2020 – now",
+    "responsibilities": [
+      "working on projects of WebBoxes s.r.o. clients: VPS (Webrtc-based project)",
+      "webboxes.io developing visual WebSite Builder using React, Node.js/Nest.js",
+      "jsSchool.org developing a remote-learning platform to teach Javascript "
+    ]
+  },
+  {
+    "id": 9,
+    "position": "React/Node.js developer",
+    "companyName": "BITMEDIA LABS",
+    "hrefCompany": "https://bitmedia.io/",
+    "location": "Kiev, Ukraine, UA",
+    "companyDiscription": "software development company",
+    "period": "DEC 2020 – AUG 2021",
+    "responsibilities": [
+      "Front-end developing: React.js, Next.js",
+      "Developing API for rx.ua: Express.js, MongoDB, Docker",
+      "Developing Admin-Panel and Node-Services"
+    ]
+  },
+  {
+    "id": 10,
+    "position": "Full stack JS-developer",
+    "companyName": "SEDNOR",
+    "hrefCompany": "https://sednor.io/",
+    "location": "Kharkiv, Ukraine, UA (Remote)",
+    "companyDiscription": "software development company",
+    "period": "JUL 2021 – now",
+    "responsibilities": [],
+    "projects": [
+      {
+        "title": "Project “Ted’s Health” (Nov 2022 – Mar 2023)",
+        "responsibilities": [
+          "Front-end developing: Next.js, TypeScript, Charka-UI, Apollo-client, Graphql-codegen, Firebase, Vercel, Klaviyo-api, d3.js",
+          "Backend API: Express.js, Nest.js, Apollo GraphQL, TypeGraphql, TypeORM, migrations, webhooks, unit-tests, e2e-tests, Google-cloud, Terraform, Sentry, Amplitude, Thriva, Semble"
+        ]
+      },
+      {
+        "title": "Project “Rerobe/Ribbn” (Aug 2021 – Nov 2022)",
+        "responsibilities": [
+          "Front-end developing: Next.js, Styled Components, Grapes.js, Firebase, Algolia-search, Google-api",
+          "Backend API: Express.js, Firebase-functions",
+          "Developing node-module Form instance: TypeScript"
+        ]
+      }
+    ]
+  }
+]

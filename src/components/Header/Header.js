@@ -8,7 +8,7 @@ const Header = () => (
       <span className={styles.headerHi}>Hi, I am</span>
       <h1 className={styles.logo}>Valeriia Chorna</h1>
       <ContactsList />
-      <span className={styles.locationText}>Location: Kyiv, Ukraine</span>
+      <span className={styles.locationText}>Location: Dnipro, Ukraine</span>
     </div>
   </header>
 );

@@ -13,8 +13,9 @@ export default function EducationItem({ educItem }) {
   } = educItem;
   return (
     <li key={'EducationItem' + id} className={styles.educationItem}>
-      <span>{period}</span>
-      <h3>{specialization}</h3>
+      <h3>
+        {specialization} ({period})
+      </h3>
       <span>
         <a href={hrefShcool} target="_blank" rel="noopener noreferrer">
           {nameSchool}

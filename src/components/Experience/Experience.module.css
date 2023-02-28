@@ -2,10 +2,20 @@
 
 .experienceList {
   text-align: left;
+  height: 100%;
+  overflow-y: hidden;
 }
 
 .experienceItem {
   margin-bottom: 1em;
+}
+
+.experienceItem_title {
+  cursor: pointer;
+}
+
+.experienceItem_title span {
+  margin-right: 20px;
 }
 
 .experienceItem input {
@@ -23,4 +33,5 @@
 .experienceItem_company {
   display: block;
   margin-bottom: 1rem;
+  opacity: 50%;
 }

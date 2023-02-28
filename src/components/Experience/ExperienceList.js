@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-// import T from 'prop-types';
+
 import workExperience from '../../data/work_experience.json';
+import itWorkExperience from '../../data/it-work_experience.json';
 import ExperienceItem from './ExperienceItem';
 import styles from './Experience.module.css';
 
@@ -14,6 +15,18 @@ export default function ExperienceList() {
   return (
     <form>
       <ul key="experiences" className={styles.experienceList}>
+        {itWorkExperience
+          .map(item => (
+            <ExperienceItem
+              key={item.id}
+              workItem={item}
+              chosenItem={chosenItem}
+              handleItemChange={onHandleChange}
+            />
+          ))
+          .reverse()}
+        <hr />
+        <h3>Other:</h3>
         {workExperience
           .map(item => (
             <ExperienceItem

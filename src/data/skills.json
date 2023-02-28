@@ -1,12 +1,12 @@
 [
   {
-    "lang": ["Russian-С2", "Ukrainian-С1", "English-B1"],
+    "lang": ["Russian-С2", "Ukrainian-С2", "English-B1"],
     "development": [
-      "HTML: basics, semantics, a11y",
-      "CSS: basics, flexbox, adaptive and mobile-first css, BEM, SASS",
-      "JavaScript: basics, ES5/ES6+, DOM/BOM, AJAX, patterns, Gulp, Webpack",
-      "React: basics, state management с Redux, client-side routing, patterns, testing",
-      "NodeJS: vanilla NodeJS, Express, MongoDB, Mongoose, JWT",
+      "HTML: semantics, a11y",
+      "CSS: flexbox, grid, adaptive and mobile-first css, BEM, SASS",
+      "JavaScript: ES5/ES6+, JS Web APIs, DOM/BOM, AJAX, patterns, Gulp, Webpack, Handlebars Templates, Styled Components, EmailJS, Grapes.js, Draft-js, Algolia-search, Reactstrap, Webrtc, TypeScript, Charka-UI, Google-cloud, Terraform, Sentry, Amplitude, Klaviyo",
+      "React: React hooks, state management (Redux, React Context), client-side routing. Next.js, Gatsby, React Static, Vue.js (basic), Apollo-client",
+      "NodeJS: vanilla NodeJS, Express, Nest.js, Apollo GraphQL, TypeGraphql, TypeORM, Firebase, MongoDB, Mongoose, JWT, Sequelize, Sqlite, migrations, webhooks, unit-tests, e2e-tests",
       "Basics and tools: terminal, git, github, npm, babel",
       "Other: Scrum Agile Methodology"
     ],

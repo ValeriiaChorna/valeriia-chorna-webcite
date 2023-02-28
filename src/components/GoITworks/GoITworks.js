@@ -3,7 +3,7 @@ import React from 'react';
 export default function GoITworks() {
   return (
     <div>
-      <h3>FRONTEND GOIT-works:</h3>
+      {/*<h3>FRONTEND GOIT-works:</h3>*/}
       <span>
         <a
           href="https://valeriiachorna.github.io/goit-fe-course/html-css/module_3/"
