@@ -33,5 +33,5 @@
 .experienceItem_company {
   display: block;
   margin-bottom: 1rem;
-  opacity: 50%;
+  color: rgba(255, 255, 255, 0.53);
 }
